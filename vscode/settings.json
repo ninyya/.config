@@ -1,21 +1,20 @@
 {
+    "python.pythonPath": "C:\\Program Files (x86)\\Python38-32\\python.exe",
     "workbench.iconTheme": "eq-material-theme-icons-darker",
     "workbench.colorCustomizations": {},
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "editor.fontFamily": "'Cascadia Code PL', 'Cascadia Mono PL', 'Cascadia Code', 'Cascadia Mono'",
     "editor.fontLigatures": true,
     "diffEditor.codeLens": true,
     "vscode-neovim.neovimExecutablePaths.win32": "C:\\tools\\neovim\\Neovim\\bin\\nvim.exe",
     "materialTheme.accent": "Purple",
-	// Remove telemetry
     "telemetry.enableCrashReporter": false,
     "AREPL.telemetry": false,
     "gitlens.advanced.telemetry.enabled": false,
     "telemetry.enableTelemetry": false,
-	
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-    "vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\ninya\\AppData\\Local\\nvim\\init.vim",
+    "vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\NyNya\\AppData\\Local\\nvim\\init.vim",
     "editor.minimap.enabled": false,
-    "vscode-neovim.useWSL": false,
     "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim",
     "terminal.integrated.fontFamily": "'Cascadia Code PL'",
     "workbench.colorTheme": "Community Material Theme Darker High Contrast",
@@ -615,7 +614,6 @@
               "name": "Declaration",
               "type": "command",
               "command": "editor.action.peekDeclaration"
-			  // TODO Might wanna adda "when"
             },
             {
               "key": "i",
@@ -885,7 +883,7 @@
           "type": "command",
           "command": "workbench.view.extensions"
         },
-        {
+        /*{
           "key": "y",
           "name": "Sync...",
           "type": "bindings",
@@ -903,7 +901,7 @@
               "command": "extension.updateSettings"
             }
           ]
-        },
+        },*/
         {
           "key": "z",
           "name": "Toggle zen mode",
@@ -912,5 +910,4 @@
         }
     ],
     "workbench.editor.showTabs": true,
-
 }

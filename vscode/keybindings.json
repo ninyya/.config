@@ -198,5 +198,10 @@
     "key": "shift+delete",
     "command": "-deleteFile",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "space",
+    "command": "whichkey.show",
+    "when": "editorTextFocus && neovim.mode != 'insert'"
   }
 ]
