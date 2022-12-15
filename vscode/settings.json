@@ -1,32 +1,22 @@
 {
-    "python.pythonPath": "C:\\Program Files (x86)\\Python38-32\\python.exe",
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
-    "workbench.colorCustomizations": {},
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "editor.fontFamily": "'Cascadia Code PL', 'Cascadia Mono PL', 'Cascadia Code', 'Cascadia Mono'",
+    // Workbench
+    "workbench.colorTheme": "Ayu Dark Bordered",
+    "workbench.iconTheme": "ayu",
+    "window.menuBarVisibility": "toggle",
+    "workbench.startupEditor": "none",
+
+    // Editor
+    //"editor.fontFamily": "'Cascadia Mono PL', 'Cascadia Mono', 'Cascadia Code PL', 'Cascadia Code'",
+    "editor.fontFamily": "'Cascadia Code PL', 'Cascadia Code', 'Cascadia Mono PL', 'Cascadia Mono'",
     "editor.fontLigatures": true,
-    "diffEditor.codeLens": true,
-    "vscode-neovim.neovimExecutablePaths.win32": "C:\\tools\\neovim\\Neovim\\bin\\nvim.exe",
-    "materialTheme.accent": "Purple",
-    "telemetry.enableCrashReporter": false,
-    "AREPL.telemetry": false,
-    "gitlens.advanced.telemetry.enabled": false,
-    "telemetry.enableTelemetry": false,
-    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-    "vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\NyNya\\AppData\\Local\\nvim\\init.vim",
-    "editor.minimap.enabled": false,
-    "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim",
-    "terminal.integrated.fontFamily": "'Cascadia Code PL'",
-    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
-    "terminal.external.windowsExec": "wt",
-    "terminal.integrated.shell.linux": "/bin/zsh",
-    "debug.console.fontSize": 12,
-    "terminal.integrated.fontSize": 12,
-    
-    "gitlens.hovers.currentLine.over": "line",
-    "editor.suggestSelection": "first",
-    "workbench.list.automaticKeyboardNavigation": false,
     "editor.cursorBlinking": "solid",
+    "editor.suggestSelection": "first",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.minimap.enabled": false,
+
+    "diffEditor.codeLens": true,
+
     "files.exclude": {
       // "**/.git": true,
       // "**/.svn": true,
@@ -38,10 +28,30 @@
       "**/.settings": true,
       "**/.factorypath": true
     },
-    "workbench.activityBar.visible": false,
-    "window.menuBarVisibility": "toggle",
+    "files.associations": {
+      "*.json": "jsonc"
+    },
     
-    //Whichkey config
+    // Terminal
+    "terminal.external.windowsExec": "wt",
+    "terminal.integrated.fontFamily": "'Cascadia Code PL'",
+
+    "terminal.integrated.allowChords": false,
+
+    // Telemetry
+    "telemetry.telemetryLevel": "off",
+    
+//------------------------------------------------------
+
+    // Extensions;
+    //////////////
+    // Neovim
+    "vscode-neovim.neovimExecutablePaths.win32": "C:\\tools\\neovim\\Neovim\\bin\\nvim.exe",
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\NyNya\\AppData\\Local\\nvim\\init.vim",
+    "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim",
+    
+    // Whichkey
     "whichkey.sortOrder": "alphabetically",
     "whichkey.bindings": [
         {
@@ -744,7 +754,7 @@
           ]
         },
         {
-          "key": "U",
+          "key": "u",
           "name": "UI toggles...",
           "type": "bindings",
           "bindings": [
@@ -767,7 +777,7 @@
               "command": "workbench.action.togglePanel"
             },
             {
-              "key": "F",
+              "key": "f",
               "name": "Toggle full screen",
               "type": "command",
               "command": "workbench.action.toggleFullScreen"
@@ -785,7 +795,7 @@
               "command": "workbench.action.toggleMaximizedPanel"
             },
             {
-              "key": "T",
+              "key": "t",
               "name": "Toggle tab visibility",
               "type": "command",
               "command": "workbench.action.toggleTabsVisibility"
@@ -909,5 +919,5 @@
           "command": "workbench.action.toggleZenMode"
         }
     ],
-    "workbench.editor.showTabs": true,
+
 }
