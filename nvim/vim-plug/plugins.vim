@@ -118,7 +118,7 @@ call plug#begin(expand(g:path) . 'autoload/plugged')
 "    " TODO add this back in change from C-n
 "    " Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 "    Plug 'moll/vim-bbye'
-"  endif
+  endif
 
 "Colorscheme
 "Plug 'kaicataldo/material.vim', { 'branch': 'main' }
