@@ -10,6 +10,10 @@ let mapleader=" "
 " let localleader=" "
 nnoremap <Space> <Nop>
 
+" Use CTRL-L to clear the highlighting of 'hlsearch' (off by default) and call
+" :diffupdate.
+nnoremap <silent> <C-L> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L> 
+
 " Better indenting
 vnoremap < <gv
 vnoremap > >gv
@@ -26,7 +30,7 @@ else
   inoremap <expr> <c-j> ("\<C-n>")
   inoremap <expr> <c-k> ("\<C-p>")
 
-  " I hate escape more than anything else
+  " No need to use escape
   inoremap jk <Esc>
   inoremap kj <Esc>
 

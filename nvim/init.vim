@@ -25,11 +25,15 @@ execute "source " . expand(g:path) . "general/settings.vim"
 "execute "source " . expand(g:path) . "general/functions.vim"
 execute "source " . expand(g:path) . "keys/mappings.vim"
 
+:colorscheme ayu-dark	" Ayu-dark theme
+
+"VSCode settings
 if exists('g:vscode')
     "VSCode extensions
     execute "source " . expand(g:path) . "vscode/settings.vim"			|" Need to lookey lookey again.
     execute "source " . expand(g:path) . "plug-config/easymotion.vim"	|"still need todo
     execute "source " . expand(g:path) . "plug-config/highlightyank.vim"	|"look into: https://neovim.io/doc/user/lua.html#lua-highlight
+"Pure settings
 else
 "    "Plugins for non-VSCode nvim
 "

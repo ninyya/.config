@@ -9,6 +9,9 @@
 
 call plug#begin(expand(g:path) . 'autoload/plugged')
 
+	" Theme
+	Plug 'shatur/neovim-ayu'
+
     " Better Comments
     Plug 'tpope/vim-commentary'
     " Change dates fast
