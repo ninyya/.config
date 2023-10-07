@@ -15,7 +15,7 @@ endif
 if g:os == "Windows"
 	let g:path = "$LOCALAPPDATA/nvim/"
 elseif g:os == "Linux"
-	"let g:path = "$HOME/.config/nvim/"
+	let g:path = "$HOME/.config/nvim/"
 else
 	echo "Unknown OS"
 endif
